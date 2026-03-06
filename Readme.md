@@ -1,9 +1,6 @@
 # Franshin Mizar Husain Portfolio Website
 
-## Link URL
-http://127.0.0.1:3000/Project-Portofolio/index.html?serverWindowId=33c9a218-3e51-4fce-8902-0b2ed452fea1
 
----
 ## Overview
 This website is a simple personal portfolio created to document my journey while learning web development.  
 The website introduces who I am, what I am currently learning, and some small projects I created while studying HTML and CSS.
@@ -27,4 +24,5 @@ This project also serves as a starting point for my future web development portf
 - Flexbox layout
 
 - CSS Grid layout
+
 
