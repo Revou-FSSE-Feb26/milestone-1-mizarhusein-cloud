@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Frans Portofolio</title>
+        
+        <style>
+                html{
+                scroll-behavior:smooth;
+                }
+
+                body{
+                font-family: Arial, sans-serif;
+                margin:0;
+                background:#f4f1ea;
+                color:#3c3c3c;
+                }
+
+
+
+            /* NAVIGATION */
+
+                nav{
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                padding:25px 80px;
+                background:#6b4f3b;
+                }
+
+                .logo{
+                color:white;
+                }
+
+                nav ul{
+                display:flex;
+                gap:25px;
+                list-style:none;
+                }
+
+                nav a{
+                color:white;
+                text-decoration:none;
+                font-weight:bold;
+                }
+
+
+
+            /* HERO */
+
+                .hero{
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                gap:80px;
+                padding:80px;
+                }
+
+                .hero-text{
+                max-width:500px;
+                }
+
+                .hero h1{
+                font-size:40px;
+                color:#4b3a2f;
+                }
+
+                .hero-image img{
+                width:320px;
+                border-radius:12px;
+                }
+
+                .btn{
+                display:inline-block;
+                margin-top:20px;
+                padding:10px 20px;
+                background:#a67c52;
+                color:white;
+                text-decoration:none;
+                border-radius:6px;
+                text-align: center;
+                }
+
+
+            /* SECTION */
+
+                section{
+                max-width:900px;
+                margin:auto;
+                padding:80px 20px;
+                }
+
+                h2{
+                color:#6b4f3b;
+                }
+
+
+
+            /* PROJECT */
+                .project-grid{
+                display:grid;
+                grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+                gap:25px;
+                margin-top:30px;
+                }
+
+                .project-item{
+                background:white;
+                padding:15px;
+                border-radius:10px;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);
+                }
+
+                .project-item img{
+                width:100%;
+                border-radius:8px;
+                }
+
+                .project-item p{
+                font-size:14px;
+                margin-top:10px;
+                }
+
+
+
+            /* CAT GIF */
+
+                .cat-container{
+                text-align:center;
+                margin-top:30px;
+                }
+
+                .cat-gif{
+                width:220px;
+                border-radius:10px;
+                filter:sepia(40%) saturate(80%);
+                }
+
+                .cat-caption{
+                font-size:14px;
+                color:#6b4f3b;
+                font-style:italic;
+                }
+
+
+
+            /* CONTACT */
+
+                #contact{
+                text-align:center;
+                }
+
+
+
+            /* FOOTER */
+
+                footer{
+                background:#6b4f3b;
+                color:white;
+                text-align:center;
+                padding:25px;
+                }
+
+        </style>
+        
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+                <h2 class="logo">Franshin Mizar Husain</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+
+            <section id="home" class="hero">
+
+                <div class="hero-text">
+                    <h1>Hello Yorobun, Aku Frans👋</h1>
+                    <p>Selamat datang di website kecil saya di internet. Tempat ini adalah tempat saya belajar coding, mencoba membuat sesuatu yang terlihat profesional, dan sesekali bertanya ke Google kenapa website tiba-tiba rusak.</p>
+
+                    <p>Saya adalah mahasiswa Business Management yang sedang tertarik mempelajari dunia digital. Saat ini saya fokus belajar:</p>
+
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Website layout</li>
+                        <li>Front-end development</li>
+                    </ul>
+
+                    <p>Tujuan saya sederhada: <cite>mampu membuat website yang rapi, mudah digunakan, dan tidak membuat browser tiba-tiba menyerah.</cite></p>
+
+                    <a href="#about" class="btn">Tak Kenal Maka Tak Sayang</a>
+                </div>
+
+                <div class="hero-image">
+                    <img style="weight:900px;height:700px" src="picture1.png" alt="Frans">
+                </div>
+
+            </section>
+
+
+            <section id="about">
+
+                <h2>About Me</h2>
+
+                <p>Saya adalah seseorang yang suka belajar hal baru, terutama jika berkaitan dengan teknologi, internet, dan cara membuat sesuatu dari nol.</p>
+
+                <p>Perjalanan karier saya cukup beragam. Saya pernah bekerja di dunia hospitality, banking, dan layanan pelanggan. Pengalaman tersebut membuat saya terbiasa bekerja dengan banyak orang, menyelesaikan masalah, dan tetap tenang ketika situasi mulai ramai.</p>
+
+                <p>Saat ini saya sedang belajar menjadi Managerial serta memahami bagaimana website dibuat dari awal. Walaupun masih tahap belajar, saya menikmati proses mencoba, memperbaiki error, dan melihat website akhirnya bisa tampil dengan baik.</p>
+
+                <h3>Tools yang sering saya gunakan</h3>
+
+                <ul>
+                    <li>Microsoft Office</li>
+                    <li>Google Workspace</li>
+                    <li>Canva</li>
+                    <li>Trello</li>
+                    <li>Zoom</li>
+                </ul>
+
+                <div class="cat-container">
+                    <img class="cat-gif" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="typing cat">
+                    <p class="cat-caption">
+                    Ini saya setiap kali sedang coding dan berharap bug-nya hilang sendiri.
+                    </p>
+                </div>
+
+            </section>
+
+
+            <section id="projects">
+
+                <h2>Projects</h2>
+            
+                <p>Beberapa eksperimen kecil saya saat belajar membuat website menggunakan HTML dan CSS. Masih sederhana, tetapi setiap project membuat saya belajar sesuatu yang baru.</p>
+
+                <div class="project-grid">
+
+                    <div class="project-item">
+                        <img style="weight:180px;height: 200px;px;" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+                        <p>Mencoba membuat layout HTML pertama.</p>
+                    </div>
+                
+                    <div class="project-item">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6">
+                        <p>Belajar membuat struktur halaman website.</p>
+                    </div>
+
+                    <div class="project-item">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c">
+                        <p>Experimen warna dan tipografi.</p>
+                    </div>
+
+                    <div class="project-item">
+                        <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4">
+                        <p>Membuat halaman portofolio sederhana.</p>
+                    </div>
+
+                    <div class="project-item">
+                        <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd">
+                        <p>Belajar membuat desain basic.</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+        
+            <section id="contact">
+
+                <h2>Contact</h2>
+
+                <p>Jika kamu ingin berdiskusi tentang website, pekerjaan digital, atau sekadar menyapa, kamu bisa menghubungi saya melalui email.</p>
+                <p><a href="#">mizarhusein@gmail.com</a></p>
+        
+            </section>
+
+        </main>
+
+        <footer>
+            <p>Made with coffee ☕ and a little bit of HTML confusion</p>
+            <p>&copy; 2026 Franshin Mizar Husain. All rights reserved.</p>
+        </footer>
+
+    </body>
+
+</html>
