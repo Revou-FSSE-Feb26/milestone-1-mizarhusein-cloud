@@ -1,7 +1,7 @@
 # Franshin Mizar Husain Portfolio Website
 
 ## Link URL
-
+https://revou-fsse-feb26.github.io/milestone-1-mizarhusein-cloud/
 
 ---
 ## Overview
@@ -25,4 +25,5 @@ This project also serves as a starting point for my future web development portf
 - HTML5
 - CSS3
 - Flexbox layout
+
 - CSS Grid layout
