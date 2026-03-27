@@ -1,0 +1,96 @@
+# 🌐 Frans Portfolio Website
+
+## 📌 Overview
+This is a simple personal portfolio website built using basic HTML and CSS.  
+The website introduces who I am, my background, skills, experience, and projects.
+
+The design focuses on:
+- Clean layout
+- Easy navigation
+- Simple styling
+
+
+
+---
+
+## ✨ Features Implemented
+
+### 🔹 General Design
+- Simple and clean UI
+- Consistent brown color theme
+- Easy navigation bar
+
+### 🔹 Home Section
+- Introduction text
+- Profile image
+- Button with hover effect
+
+### 🔹 About Section
+- Short biography
+- Skills list
+- Clean spacing
+
+### 🔹 Experience Section
+- Card layout
+- Hover effect (lift animation)
+
+### 🔹 Projects Section
+- Project cards
+- Gradient background
+- Hover effect on links
+
+### 🔹 Contact Section
+- Simple contact form
+- Styled inputs and button
+
+### 🔹 Footer
+- Gradient background
+- Centered text
+
+### 🔹 CSS Styling Features
+- Flexbox layout
+- Responsive design using media queries
+- Hover effects:
+  - Buttons
+  - Cards
+  - Images
+  - Links
+- Gradient elements (navbar, footer, project)
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5   
+- Flexbox  
+- Media Queries  
+
+---
+
+## 📱 Responsive Design
+
+This website works on:
+- Desktop 💻  
+- Tablet 📱  
+- Mobile 📱  
+
+---
+
+## 🖼️ Screenshots
+
+### 📸 Screenshots
+![Demo](screenshot1.jpg)
+![Demo](screenshot2.jpg)
+
+---
+
+## 🚀 Future Improvements
+- Add more real projects  
+- Improve UI design  
+- Add JavaScript interaction  
+- Connect contact form to backend  
+
+---
+
+## 🧟‍♂️ Author
+Franshin Mizar Husain  
