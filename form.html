@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+
+<!-- Font untuk judul -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f5f1ea;
+}
+
+.container{
+    width:400px;
+    margin:40px auto;
+    padding:25px;
+    border:1px solid #999;
+    background:white;
+}
+
+h2{
+    font-family:'Playfair Display', serif; /* font berbeda */
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #999;
+    border-radius:4px;
+    box-sizing:border-box;
+}
+
+textarea{
+    height:120px;
+}
+
+.buttons{
+    margin-top:20px;
+}
+
+
+
+.submit{
+    background:#1e73e8;
+    color:white;
+}
+
+.reset{
+    background:#6c757d;
+    color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Tak Kenal Maka Tak Sayang</h2>
+
+        <form>
+
+            <label>Nama</label>
+                <input type="text" required placeholder="Masukkan Nama Anda">
+
+            <label>Email</label>
+                <input type="email" required placeholder="Masukkan Email Anda" oninvalid="this.setCustomValidity('Email tidak valid!')" oninput="this.setCustomValidity('')">
+
+            <label>Hoby</label>
+                <select required>
+                    <option value="" disabled selected>Pilih Kategori</option>
+                    <option value="pertanyaan">Pertanyaan</option>
+                    <option value="masukan">Masukan</option>
+                    <option value="laporan">Laporan</option>
+                </select>
+
+            <label>Berbagi Foto</label>
+                <input type="file">
+
+            <label>Pesan & Kesan</label>
+                <textarea required placeholder="Masukkan Pesan Anda"></textarea>
+
+            <div class="buttons">
+                <button type="submit" class="submit">Kirim</button>
+                <button type="reset" class="reset">Reset</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
